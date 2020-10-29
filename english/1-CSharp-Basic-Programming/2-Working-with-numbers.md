@@ -8,7 +8,7 @@
 
 ## Integral numeric types ##
 
-There are 8 built-in integral numeric types: **`byte`, `sbyte`, `ushort`, `short`, `int`, `uint`, `long`, `ulong`**). But only **`int`, `uint`, `long` and `ulong`** support basic arithmetic operations: **addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`) and remainder (`%`)**.
+There are 8 built-in integral numeric types: **`byte`, `sbyte`, `ushort`, `short`, `int`, `uint`, `long`, `ulong`**. But only **`int`, `uint`, `long` and `ulong`** support basic arithmetic operators: **addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`) and remainder (`%`)**.
 
 Let's write the code below in `Main()`.
 
@@ -29,7 +29,7 @@ public static void Main(/*string[] args*/)
 
 - `Console.WriteLine(b);` outputs the value of `b` to the console;
 
-Easy, right? You can combine multiple operations in a single line, if you want.
+Easy, right? You can combine multiple operators in a single line, if you want.
 
 ```cs
 public static void Main(/*string[] args*/)
@@ -62,7 +62,7 @@ uint a = 1280;
 byte b = -10; // Compiler error!
 ```
 
-To specify the type of an integer number, you should use **suffixes: `u`/`U` for `uint`, `l`/`L` for `long`. `ul`/`uL`/`Ul`/`UL`/`lu`/`lU`/`Lu`/`LU` for `ulong`**.
+To specify the type of an integer number, you should use **suffixes: `u`/`U` for `uint`, `l`/`L` for `long` and `ul`/`uL`/`Ul`/`UL`/`lu`/`lU`/`Lu`/`LU` for `ulong`**.
 
 ```cs
 uint a = 650u;
@@ -72,7 +72,7 @@ ulong c = 197777666UL;
 
 ***Note: don't use lowercase `l` in suffixes. It can be easily confused with a digit `1` in the text editor. Use uppercase `L` instead.***
 
-For better readability, you can use **underscore `_` as a digit separator** for both integral and floating-point numbers:
+For better readability, you can use **underscore `_` as a digit separator** for both integral and floating-point numbers.
 
 ```cs
 int a = 19_122_872;
@@ -130,7 +130,7 @@ double a = 19d / 3;
 double a = 19d / (double)3;
 ```
 
-You can also use **scientific notation**. Exponent `e`/`E` is typed after the fractional part of the number, but before the suffix.
+You can also use **scientific notation**. Exponent **`e`/`E`** is typed after the fractional part of the number, but before the suffix.
 
 ```cs
 float a = 1.32E-2f;

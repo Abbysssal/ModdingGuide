@@ -80,9 +80,9 @@ namespace TutorialApp
 
 Now let's look at the code.
 
-**`using System;`** specifies that we're going to use classes from that namespace (`Console`).
+**`using System;`** specifies that we're going to use types from that namespace (`Console`).
 
-**`namespace TutorialApp { ... }`** specifies that the classes inside this block will be in this namespace. The code inside a certain namespace can access all types in it, so there's no need to write `using TutorialApp;` in the beginning.
+**`namespace TutorialApp { ... }`** specifies that the types inside this block will be in this namespace. The code inside a certain namespace can access all types in it, so there's no need to write `using TutorialApp;` in the beginning.
 
 **`public class Program { ... }`** declares a class called "Program". We'll talk about classes and types later.
 
@@ -100,7 +100,7 @@ After the program is compiled, you will see a console window with "Hello World!"
 
 ![](./img/1-12.png)
 
-Now, let's declare a variable of type `double` (a double-precision floating-point number) and assign some number to it: `double a = 420.69;`.
+Now let's declare a variable of type `double` (a double-precision floating-point number) and assign some number to it: `double a = 420.69;`.
 
 And to know that our program is different, let's add this number to the end of `"Hello World!"` string. When appending an object to a string, that object is converted to an equivalent string representation. In this case, `"420.69"`.
 
