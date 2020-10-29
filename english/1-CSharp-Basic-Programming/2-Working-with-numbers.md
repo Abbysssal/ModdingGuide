@@ -4,9 +4,9 @@
 2. **Working with numbers**;
 3. [Statements, expressions and operators](./3-Statements-expressions-and-operators.md);
 
-## Working with numbers ##
+# Working with numbers #
 
-#### Integral numeric types ####
+## Integral numeric types ##
 
 There are 8 built-in integral numeric types: **`byte`, `sbyte`, `ushort`, `short`, `int`, `uint`, `long`, `ulong`**). But only **`int`, `uint`, `long` and `ulong`** support basic arithmetic operations: **addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`) and remainder (`%`)**.
 
@@ -100,7 +100,7 @@ int remainder = 19 % 3; // returns 1, remainder of the division
 
 If you need the fractional part as well, then you should use floating-point numeric types: **`float`, `double`, `decimal`**.
 
-#### Floating-point numeric types ####
+## Floating-point numeric types ##
 
 When using floating-point types, you should keep in mind that this code: `double a = 19;` - takes an integer `19` and assigns its value to a variable `a` (it's implicitly converted from `int` to `double`).
 
@@ -138,7 +138,7 @@ double b = 1.932e+6d;
 decimal c = 1.9982e5m;
 ```
 
-#### Ranges of numeric types ####
+## Ranges of numeric types ##
 
 **Integral numeric types**
 
@@ -171,4 +171,4 @@ double min2 = double.MinValue; // ≈ -1.7×10³⁰⁸
 double max2 = double.MaxValue; // ≈ +1.7×10³⁰⁸
 ```
 
-### Next: 3. [Statements, expressions and operators](./3-Statements-expressions-and-operators.md) ###
+## Next: 3. [Statements, expressions and operators](./3-Statements-expressions-and-operators.md) ##

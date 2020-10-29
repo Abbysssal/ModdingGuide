@@ -4,13 +4,13 @@
 2. [Working with numbers](./2-Working-with-numbers.md);
 3. [Statements, expressions and operators](./3-Statements-expressions-and-operators.md);
 
-## Creating a project in Visual Studio ##
+# Creating a project in Visual Studio #
 
 ***Projects** contain all source files (source code, icons, data and resources), that are compiled into an executable, library or something else. They also contain configuration files and compiler settings specific for this project.*
 
 ***Solution** is just a container for multiple projects.*
 
-#### Creating a project ####
+## Creating a project ##
 
 To start programming, we'll need to create a project in Visual Studio first. Run Visual Studio and select "Create a new project".
 
@@ -47,7 +47,7 @@ You can add more information about your project in its properties. Just right cl
 
 Now that you've created your project, you can start actually programming.
 
-#### Basics of C# Programming ####
+## Basics of C# Programming ##
 
 **C# is a strongly typed language, so every variable must have a type, that will determine its value, stored data, size and ways to access and convert that data.**
 
@@ -112,4 +112,4 @@ Let's run the program again and look at the result.
 
 Great job! About 50% of all people get to this point. Most of the other half just give up, because everything seems too complicated. But don't worry, you don't understand anything because you don't know anything. It's natural. You can't understand a language just by knowing a couple of words.
 
-### Next: 2. [Working with numbers](./2-Working-with-numbers.md) ###
+## Next: 2. [Working with numbers](./2-Working-with-numbers.md) ##
