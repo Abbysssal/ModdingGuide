@@ -3,6 +3,7 @@
 1. [Создание проекта в Visual Studio](./1-Creating-a-project-in-Visual-Studio.md);
 2. **Работаем с числами**;
 3. [Высказывания, выражения и операторы](./3-Statements-expressions-and-operators.md);
+4. [Ветвление и циклы](./4-Branches-and-loops.md);
 
 # Работаем с числами #
 

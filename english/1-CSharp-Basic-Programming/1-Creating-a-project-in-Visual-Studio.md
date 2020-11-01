@@ -3,6 +3,7 @@
 1. **Creating a project in Visual Studio**;
 2. [Working with numbers](./2-Working-with-numbers.md);
 3. [Statements, expressions and operators](./3-Statements-expressions-and-operators.md);
+4. [Branches and loops](./4-Branches-and-loops.md);
 
 # Creating a project in Visual Studio #
 
